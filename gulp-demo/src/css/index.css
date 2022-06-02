@@ -1,0 +1,32 @@
+body {
+    font-size: 20px;
+    background-color: pink;
+}
+.w {
+    width: 960px;
+    margin: 0 auto;
+
+}
+.top {
+    height: 100px;
+    background-color: blue;
+}
+.content {
+    height: 200px;
+}
+.nav {
+    float: left;
+    width: 480px;
+    height: 200px;
+    background-color: yellow;
+}
+.subnav {
+    float: left;
+    width: 480px;
+    height: 200px;
+    background-color: yellowgreen;
+}
+.footer {
+    height: 100px;
+    background-color: orange;
+}

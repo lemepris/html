@@ -1,0 +1,1 @@
+"use strict";var a=10;function fn(){return function(){return{time:new Date}}}console.log(a);var f1=fn(),f2=f1();console.log(f2);
