@@ -9,4 +9,5 @@ server 关于服务器的知识，创建网站服务器对象，添加端口，h
 static 静态资源访问的服务，包括mime插件的使用，读取文件操作，设置本地路径对应到url
 
 async 异步编程，async，promise对象， 同步异步api的知识
+
 database mongodb的用法，关于增删改查，集合的关联，集合的验证
