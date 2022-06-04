@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+            
+            border: 1px solid black;
+            background-color: pink;
+        }
+        input:hover {
+            background-color: green;
+            cursor: pointer
+        }
+        table {
+            width: 800px;
+            margin: 0 auto;
+        }
+        th {
+            color: #abc;
+            width: auto;
+        }
+        th,
+        td {
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <input type="button" value="添加用户">
+    <button>button</button>
+    <table border="1" cellpadding="0" cellspacing="0">
+        <thead>
+            <tr>
+                <th>用户名</th>
+                <th>年龄</th>
+                <th>爱好</th>
+                <th>邮箱</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>张三</td>
+                <td>24</td>
+                <td>抽烟</td>
+                <td>lemepris@gmail.com</td>
+                <td>
+                    <input type="button" value="删除">
+                    <input type="button" value="删除">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
